@@ -1,0 +1,31 @@
+.customer-service {
+    display: grid;
+    gap: 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+
+    .item {
+        display: flex;
+        
+        align-items: center;
+
+        img {
+            padding-right: 20px;
+        }
+
+        .text {
+            h5 {
+                font-size: 17px;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+
+    }
+}
